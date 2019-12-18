@@ -8,7 +8,7 @@
 	<name>Selenium for Beginners</name>
 	
 	<properties>
-		<suiteXmlFile>src/test/resources/TestSuites/testng.xml</suiteXmlFile>
+		<suiteXmlFile>src/test/resources/TestSuites/PositiveTestsGrid.xml</suiteXmlFile>
 	</properties>
 
 	<dependencies>

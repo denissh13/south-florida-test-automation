@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="PositiveTestSuite" verbose="1" parallel="tests" thread-count="2">
+<suite name="PositiveTestSuite" verbose="1" parallel="tests" thread-count="4">
 
 	<!-- <parameter name="environment" value="local"></parameter> -->
 	<parameter name="environment" value="grid"></parameter>
@@ -18,5 +18,19 @@
 			<class name="com.herokuapp.theinternet.tests.PositiveTests" />
 		</classes>
 	</test>
+
+        <test name="PositiveTest-CH2">
+                <parameter name="browser" value="chrome"></parameter>
+                <classes>
+                        <class name="com.herokuapp.theinternet.tests.PositiveTests" />
+                </classes>
+        </test>
+
+        <test name="PositiveTest-FF2">
+                <parameter name="browser" value="firefox"></parameter>
+                <classes>
+                        <class name="com.herokuapp.theinternet.tests.PositiveTests" />
+                </classes>
+        </test>	
 
 </suite>

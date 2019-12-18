@@ -9,7 +9,7 @@ import com.herokuapp.theinternet.base.BaseTest;
 
 public class PositiveTests extends BaseTest {
 
-	@Test
+	@Test(invocationCount = 1)
 	public void logInTest() {
 		// open the page
 		String url = "http://the-internet.herokuapp.com/login";
