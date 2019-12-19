@@ -41,7 +41,7 @@ public class BrowserDriverFactory {
 
 
 	public WebDriver createDriverGrid() {
-		String hubUrl = "http://52.226.73.6:4444/wd/hub";
+		String hubUrl = "http://denissh13-grid.eastus.cloudapp.azure.com/:4444/wd/hub";
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		System.out.println("Starting " + browser + " on grid");
 
